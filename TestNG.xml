@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "signup_suite">
+
+<test name = "employee_signup_test1">
+<parameter name="browser" value="chrome" />
+<classes>
+<class name = "com.ems.testcases.TC_SignUp_001"/>
+</classes>
+</test>
+
+<!-- <test name = "employee_signup_test2">
+<parameter name="browser" value="ie" />
+<classes>
+<class name = "com.ems.testcases.TC_SignUp_002"/>
+</classes>
+</test>
+
+<test name = "employee_signup_test3">
+<parameter name="browser" value="firefox" />
+<classes>
+<class name = "com.ems.testcases.TC_SignUp_001"/>
+</classes>
+</test> -->
+
+</suite>

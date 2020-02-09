@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="signup_suite" duration-ms="8015" started-at="2020-02-07T08:43:07Z" finished-at="2020-02-07T08:43:15Z">
+    <groups>
+    </groups>
+    <test name="employee_signup_test1" duration-ms="8015" started-at="2020-02-07T08:43:07Z" finished-at="2020-02-07T08:43:15Z">
+      <class name="com.ems.testcases.TC_SignUp_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ems.testcases.TC_SignUp_001@39c0f4a]" name="setup" is-config="true" duration-ms="3239" started-at="2020-02-07T08:43:07Z" finished-at="2020-02-07T08:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="signUpTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ems.testcases.TC_SignUp_001@39c0f4a]" name="signUpTest" duration-ms="3981" started-at="2020-02-07T08:43:10Z" data-provider="SignupData" finished-at="2020-02-07T08:43:14Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: signUpTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) sanju,(java.lang.String) d,(java.lang.String) sanju@gmail.com,(java.lang.String) ,(java.lang.String) Abcd@1234,(java.lang.String) Abcd@1234,(java.lang.String) ,(java.lang.String) failed]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: signUpTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) sanju,(java.lang.String) d,(java.lang.String) sanju@gmail.com,(java.lang.String) ,(java.lang.String) Abcd@1234,(java.lang.String) Abcd@1234,(java.lang.String) ,(java.lang.String) failed]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ems.testcases.TC_SignUp_001@39c0f4a]" name="tearDown" is-config="true" duration-ms="764" started-at="2020-02-07T08:43:14Z" finished-at="2020-02-07T08:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ems.testcases.TC_SignUp_001 -->
+    </test> <!-- employee_signup_test1 -->
+  </suite> <!-- signup_suite -->
+</testng-results>
